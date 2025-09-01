@@ -12,7 +12,7 @@ public class TestFact{
          System.out.println("test cases are passed");
        }
        catch(Exception e){
-        System.out.println("Caught exception: "+e.getMessage());
+        System.out.println("Caught exception test failed : "+e.getMessage());
        }
     }
 }
