@@ -14,7 +14,7 @@ Pipeline{
         }
         stage("Run"){
             steps{
-                bat 'java Fcatorial.java'
+                bat 'java Factorial.java'
             }
         }
         stage("Package JAR"){
